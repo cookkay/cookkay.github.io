@@ -223,14 +223,14 @@ nav a:focus, nav a:hover {
 nav a:active {
     color: #fff;
     background-color: black;
-    
+
 
 
 }
 /* Footer Styles */
 
 footer {
-
+ text-align: center;
 }
 
 
