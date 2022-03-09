@@ -79,20 +79,18 @@ header, footer {
 
 /* Imported Typfaces */
 
-@font-face {
+@font-face { 
     font-family: montserrat;
-    src: url(fonts/montserrat-regular.ttf) format('truetype');
+    src: url(../fonts/montserrat-regular.ttf) format('truetype');
     font-weight: normal;
 font-style: normal;
 }
 
 @font-face {
-    
     font-family: josefinslab;
-    src: url(/fonts/josefinslab-regular.ttf) format('truetype');
+    src: url(../fonts/josefinslab-regular.ttf) format('truetype');
     font-weight: normal;
 font-style: normal;
-
 }
 
 
@@ -100,15 +98,11 @@ font-style: normal;
 
 html {
     font-family: montserrat, Arial, sans-serif;
-
-
 }
 
 h1, h2 {
-    font-family: josefinslab, georgia, serif;
+    font-family: josefinslab, Georgia, serif;
     letter-spacing: 0.125rem;
-
-
 }
 
 h1 {
@@ -124,9 +118,7 @@ h2 {
 
 }
 
-h2 + p {
-
-    text-indent: 1.5rem;
+h2 + p { text-indent: 1.5rem;
 
 }
 
@@ -134,40 +126,30 @@ p {
     font-size: 0.75rem;
     letter-spacing: 0.03125rem;
     word-spacing: 0.125rem;
-
-
 }
 
 li {
     font-size: 0.75rem;
     letter-spacing: 0.03125rem;
     word-spacing: 0.125rem;
-
 }
 
 figcaption {
     font-size: 0.75rem;
     margin-bottom: 2rem;
-
 }
 /* Link Styling */
 
 a {
     outline: none;
-
-
 }
 
 a:link, a:visited {
     color: #33658A;
-
-
 }
 
 a:focus, a:hover {
     text-decoration: none;
-
-
 }
 
 /* List Styling */
@@ -181,13 +163,10 @@ ul {
 ol {
     margin: 1rem 0;
     list-style-type: lower-alpha;
-
-
 }
 
 .long-list a:hover {
     text-transform: uppercase;
-
 }
 
 
@@ -197,8 +176,6 @@ ol {
 nav{
     padding-left: 0;
     margin-top: 0.25rem;
-
-
 }
 
 nav a {
@@ -210,22 +187,15 @@ nav a {
     font-size: 1.25rem;
     margin-bottom: 1.5rem;
     border: 0.0625rem solid #33658A;
-
-
 }
 
 nav a:focus, nav a:hover {
     color:  #fff;
     background-color: #33658A;
-
-
 }
 nav a:active {
     color: #fff;
     background-color: black;
-
-
-
 }
 /* Footer Styles */
 
